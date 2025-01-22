@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahendran K's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-image: url(backround_banner.png);
+            
+            /* background: #ec06dd; */
+            color: white;
+            padding: 120px;
+            text-align: center;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100%;
+            background: #343a40;
+            padding: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #007bff;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.02);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #007bff;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 style="color: white;"><strong></strong></h1>
+    <br>
+    <br>
+    <br>
+    <p style="font-style: italic;"></p>
+    
+</header>
+
+<nav>
+    <h2>Profiles</h2>
+    <br>
+    <a href="https://www.linkedin.com/in/mahendran13/" target="_blank">LinkedIn</a>
+    <br>
+    <a href="https://leetcode.com/u/mahendran930/" target="_blank">LeetCode</a>
+    <br>
+    <a href="https://www.geeksforgeeks.org/user/mahimahen93z6/" target="_blank">GeeksforGeeks</a>
+    <br>
+    <a href="https://github.com/k-Mahendran" target="_blank">GitHub</a>
+    <br>
+    <a href="https://www.codechef.com/users/mahendran_k" target="_blank">CodeChef</a>
+    
+</nav>
+
+<div class="content">
+    <div class="card">
+        <h2>Education</h2>
+        <p>B.E - Electronics and Communication (2022–2026)</p>
+        <p>Karpagam Institute of Technology, Coimbatore | CGPA: 7.59</p>
+    </div>
+
+    <div class="card">
+        <h2>Certifications</h2>
+        <p>Python Programming (May 2024)</p>
+        <p>Great Learning Academy | HackerRank | Upgrade</p>
+        <ul>
+            <li>Python basics, Control flow, Functions and models, Data Structures and Algorithms.</li>
+            <li>5 days Bootcamp for Machine Learning using Python.</li>
+        </ul>
+        <p>C++ Programming (Oct 2023)</p>
+        <p>Great Learning Academy | HackerRank</p>
+        <ul>
+            <li>Basic C++ syntax, Data Structure, C++ collection framework, Basic OOPs.</li>
+            <li>Intermediate in C++ programming.</li>
+        </ul>
+        <p>Typing Assessment (22 July ’24)</p>
+        <ul>
+            <li>Intermediate level of typing.</li>
+            <li>27 WPM and 97% Accuracy.</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Projects</h2>
+        <h3>REDACT-PLUS | Group-project (Nov’24 - Present)</h3>
+        <p>Developed an AI and blockchain-driven tool for secure, multi-format document redaction.</p>
+        <p>Technological Stack: NLP, ML, Generative AI, and blockchain technology.</p>
+
+        <h3>DIABETES PREDICTION | Self-project (July ’24)</h3>
+        <p>Developed a Diabetes prediction model using Random Forest, achieving an accuracy of 71%.</p>
+        <p>Technological Stack: Python libraries NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn.</p>
+    </div>
+
+    <div class="card">
+        <h2>Technical Skills</h2>
+        <p>Programming: Python, C++</p>
+        <p>Database: MySQL</p>
+    </div>
+
+    <div class="card">
+        <h2>Soft Skills</h2>
+        <p>Leadership, Team Work, Problem Solving, Communication</p>
+    </div>
+
+    <div class="card">
+        <h2>Achievements</h2>
+        <p>1st Prize in Byte Works 2.0 Hackathon (15 & 16 Mar 24)</p>
+        <p>Karpagam Institute of Technology</p>
+    </div>
+
+    <div class="card">
+        <h2>Extra Curricular Activities</h2>
+        <p>Actively participating in LeetCode | CodeChef contests.</p>
+        <p>Practiced DSA problems | Solved 500+ in LeetCode | 200+ in Geeks for Geeks.</p>
+        <p>Participated in Sparkathon Hackathon, SIH (‘23 & ‘24).</p>
+        <p>Participation in Tata Crucible Campus Quiz 2024.</p>
+        <p>Member of competitive programming club in Karpagam Institute of Technology.</p>
+        <p>Played chess at the state level during schooling.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Mahendran K. All rights reserved.</p>
+</footer>
+
+<script>
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', () => {
+            card.classList.toggle('active');
+        });
+    });
+</script>
+
+</body>
+</html>
